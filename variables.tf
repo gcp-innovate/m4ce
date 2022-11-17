@@ -39,7 +39,7 @@ variable "project_create" {
 variable "project_name" {
   description = "Name of an existing project or of the new project assigned as M4CE host project"
   type        = string
-  default     = "m4ce-host-project-000"
+  #default     = "m4ce-host-project-000"
 }
 
 variable "sharedvpc_host_projects" {
